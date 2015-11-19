@@ -22,3 +22,8 @@ general:
   artifacts:
     - "dist/rules.json"
 
+deployment:
+  production:
+    branch: master
+    commands:
+      - scp dist/rules.json root@docker.hespera.net:/var/www
