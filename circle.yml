@@ -1,0 +1,24 @@
+## Customize the test machine
+machine:
+
+  timezone:
+    Europe/London # Set the timezone
+
+  python:
+    version: 2.7.10
+    
+dependencies:
+  pre:
+    - npm install
+    - pip install
+  override:
+    - make
+    
+test:
+  override:
+    - jsonlint -q dist/rules.json
+
+general:
+  artifacts:
+    - "dist/rules.json"
+
