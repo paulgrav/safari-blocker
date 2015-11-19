@@ -12,11 +12,11 @@ dependencies:
     - npm install
     - pip install -r requirements.txt
   override:
-    - make
+    - npm run build
     
 test:
   override:
-    - jsonlint -q dist/rules.json
+    - npm test
 
 general:
   artifacts:

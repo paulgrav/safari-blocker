@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "JSON rules for use with Safari’s content blocking mechanism",
   "scripts": {
-    "test": "jsonlint -q rules.json"
+    "test": "jsonlint dist/rules.json",
+  	"clean": "rm -rf dist/rules.json",
+	"build": "cat resources/*.yml | python src/yamltojson.py > dist/rules.json"
   },
   "repository": {
     "type": "git",
@@ -14,10 +16,8 @@
   "bugs": {
     "url": "https://github.com/paulgrav/safari-blocker/issues"
   },
-  "homepage": "https://github.com/paulgrav/safari-blocker#readme",
-  "main": "index.js",
+  "homepage": "https://github.com/paulgrav/safari-blocker#README.markdown",
   "dependencies": {
     "jsonlint": "^1.6.2"
-  },
-  "devDependencies": {}
+  }
 }
