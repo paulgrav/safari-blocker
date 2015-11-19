@@ -1,0 +1,23 @@
+{
+  "name": "safari-blocker",
+  "version": "1.0.0",
+  "description": "JSON rules for use with Safari’s content blocking mechanism",
+  "scripts": {
+    "test": "jsonlint -q rules.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulgrav/safari-blocker.git"
+  },
+  "author": "Paul Grave",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/paulgrav/safari-blocker/issues"
+  },
+  "homepage": "https://github.com/paulgrav/safari-blocker#readme",
+  "main": "index.js",
+  "dependencies": {
+    "jsonlint": "^1.6.2"
+  },
+  "devDependencies": {}
+}
