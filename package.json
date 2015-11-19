@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jsonlint dist/rules.json",
   	"clean": "rm -rf dist/rules.json",
-	"build": "cat resources/*.yml | python src/yamltojson.py > dist/rules.json"
+	"build": "mkdir -p dist && cat resources/*.yml | python src/yamltojson.py > dist/rules.json"
   },
   "repository": {
     "type": "git",
