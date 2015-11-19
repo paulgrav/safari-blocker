@@ -10,21 +10,21 @@ I find it easier to write/maintain Yaml than JSON, so this project takes any Yam
 
 # Requirements
 
-  node
-  python2.7
-  make
-  virtualenv
+  - node
+  - python2.7
+  - make
+  - virtualenv
   
 # Dependencies
 
-  pip install -r requirements.txt
-  npm install
+	pip install -r requirements.txt
+	npm install
   
 # Build
 
-  npm run build
+	npm run build
   
 # Tests
 
-  npm test
+	npm test
   
