@@ -1,0 +1,48 @@
+- action:
+    selector: '#ligatus ~ div'
+    type: css-display-none
+  trigger:
+    url-filter: .*
+- action:
+    selector: '[class*=''cookie''], [id*=''cookie'']'
+    type: css-display-none
+  trigger:
+    url-filter: .*
+- action:
+    selector: '[class^=''ad_''], [id^=''ad_'']'
+    type: css-display-none
+  trigger:
+    unless-domain:
+    - hotukdeals.com
+    - instapaper.com
+    url-filter: .*
+- action:
+    selector: '#breaking-news-container'
+    type: css-display-none
+  trigger:
+    url-filter: .*
+- action:
+    selector: .cookie-wrapper
+    type: css-display-none
+  trigger:
+    url-filter: .*
+- action:
+    selector: '#cookie-notice'
+    type: css-display-none
+  trigger:
+    url-filter: .*
+- action:
+    selector: .advert
+    type: css-display-none
+  trigger:
+    url-filter: .*
+- action:
+    selector: .advertContainer
+    type: css-display-none
+  trigger:
+    url-filter: .*
+- action:
+    selector: .advert--banner-wrap
+    type: css-display-none
+  trigger:
+    url-filter: .*
