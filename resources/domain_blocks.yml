@@ -6,3 +6,7 @@
     type: block
   trigger:
     url-filter: adinfo\.
+- action:
+    type: block
+  trigger:
+    url-filter: '[^a-zA-Z]ads.*?\.js'
