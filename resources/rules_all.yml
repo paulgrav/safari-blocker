@@ -666,7 +666,6 @@
     type: block
   trigger:
     url-filter: omniture
-
 - action:
     type: block
   trigger:
