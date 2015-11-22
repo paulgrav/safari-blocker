@@ -11,6 +11,10 @@ general:
   artifacts:
     - "dist/rules.json"
 
+test:
+  override:
+    - MOCHA_FILE=$CIRCLE_TEST_REPORTS/test.xml npm test -- --reporter mocha-junit-reporter
+
 deployment:
   production:
     branch: master
