@@ -7,9 +7,9 @@ machine:
   node:
     version: 4.1.0
     
-# dependencies:
-#   override:
-#     - npm run build
+dependencies:
+  override:
+    - npm run build
     
 general:
   artifacts:
