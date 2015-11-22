@@ -2,3 +2,7 @@
     type: block
   trigger:
     url-filter: atwola\.com
+- action:
+    type: block
+  trigger:
+    url-filter: adinfo\.
