@@ -4,20 +4,13 @@ machine:
   timezone:
     Europe/London # Set the timezone
 
-  python:
-    version: 2.7.10
+  node:
+    version: 4.1.0
     
-dependencies:
-  pre:
-    - npm install
-    - pip install -r requirements.txt
-  override:
-    - npm run build
+# dependencies:
+#   override:
+#     - npm run build
     
-test:
-  override:
-    - npm test
-
 general:
   artifacts:
     - "dist/rules.json"
