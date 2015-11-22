@@ -4,8 +4,7 @@
   "description": "JSON rules for use with Safari’s content blocking mechanism",
   "scripts": {
     "test": "mocha",
-    "clean": "rm -rf dist/rules.json",
-    "build": "mkdir -p dist && cat resources/*.yml | js-yaml > dist/rules.json"
+    "postinstall": "mkdir -p dist && cat resources/*.yml | js-yaml > dist/rules.json"
   },
   "repository": {
     "type": "git",
