@@ -22,3 +22,23 @@
     type: block
   trigger:
     url-filter: contextweb\.com
+- action:
+    type: block
+  trigger:
+    url-filter: goroost\.com
+- action:
+    type: block
+  trigger:
+    url-filter: nativeads\.com
+- action:
+    type: block
+  trigger:
+    url-filter: simpli\.fi
+- action:
+    type: block
+  trigger:
+    url-filter: liverail\.com
+- action:
+    type: block
+  trigger:
+    url-filter: openx\.net
