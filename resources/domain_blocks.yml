@@ -10,3 +10,15 @@
     type: block
   trigger:
     url-filter: '[^a-zA-Z]ads.*?\.js'
+- action:
+    type: block
+  trigger:
+    url-filter: viglink\.com
+- action:
+    type: block
+  trigger:
+    url-filter: crwdcntrl\.net
+- action:
+    type: block
+  trigger:
+    url-filter: contextweb\.com
