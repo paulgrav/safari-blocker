@@ -12,14 +12,10 @@ I find it easier to write/maintain Yaml than JSON, so this project takes any Yam
 
   - node
   
-# Dependencies
-
-	npm install
-  
 # Build
 
-	npm run build
-  
+	npm install
+    
 # Tests
 
 	npm test

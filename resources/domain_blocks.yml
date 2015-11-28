@@ -42,3 +42,19 @@
     type: block
   trigger:
     url-filter: openx\.net
+- action:
+    type: block
+  trigger:
+    url-filter: trackapplicf\.com
+- action:
+    type: block
+  trigger:
+    url-filter: youfiletor\.com
+- action:
+    type: block
+  trigger:
+    url-filter: popads\.net
+- action:
+    type: block
+  trigger:
+    url-filter: padsdel\.com
