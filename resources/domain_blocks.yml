@@ -58,3 +58,19 @@
     type: block
   trigger:
     url-filter: padsdel\.com
+- action:
+    type: block
+  trigger:
+    url-filter: monate\.net
+- action:
+    type: block
+  trigger:
+    url-filter: edigitalresearch\.com
+- action:
+    type: block
+  trigger:
+    url-filter: levexis\.com
+- action:
+    type: block
+  trigger:
+    url-filter: richrelevance\.com
