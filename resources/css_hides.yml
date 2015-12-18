@@ -46,3 +46,8 @@
     type: css-display-none
   trigger:
     url-filter: .*
+- action:
+    selector: '[class*=''outbrain''], [id*=''outbrain'']'
+    type: css-display-none
+  trigger:
+    url-filter: .*
