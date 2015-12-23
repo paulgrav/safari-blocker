@@ -133,10 +133,6 @@
 - action:
     type: block
   trigger:
-    url-filter: dmcdn\.net
-- action:
-    type: block
-  trigger:
     url-filter: htfacile\.fr
 - action:
     type: block

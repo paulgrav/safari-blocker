@@ -34,7 +34,8 @@ describe('blocked', function() {
 
 describe('unblocked', function() {
   var urls = [
-	  "http://www.bbc.co.uk"
+	  "http://www.bbc.co.uk",
+		"http://static1.dmcdn.net/images/header/logo.svg.vfe44cd7bde0eb7289"
   ];
 	var expected = null;
 		
