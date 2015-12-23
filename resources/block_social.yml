@@ -25,12 +25,12 @@
     load-type:
     - third-party
     url-filter: pinterest\.com
-- action:
-    type: block
-  trigger:
-    load-type:
-    - third-party
-    url-filter: facebook\.com
+# - action:
+#     type: block
+#   trigger:
+#     load-type:
+#     - third-party
+#     url-filter: facebook\.com
 - action:
     type: block
   trigger:

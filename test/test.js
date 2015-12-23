@@ -35,7 +35,8 @@ describe('blocked', function() {
 describe('unblocked', function() {
   var urls = [
 	  "http://www.bbc.co.uk",
-		"http://static1.dmcdn.net/images/header/logo.svg.vfe44cd7bde0eb7289"
+		"http://static1.dmcdn.net/images/header/logo.svg.vfe44cd7bde0eb7289",
+		"https://upload.facebook.com/ajax/composerx/attachment/media/saveunpublished?target_id=100000218740350&image_height=100&image_width=100&letterbox=0&av=100000218740350&qn=83cbbe5e9945ba7ea4f889dfb77ce687&__pc=EXP1%3ADEFAULT&__user=100000218740350&__a=1&__dyn=7AmanEzUFlym5Q9UoHaEWCueyrhEK5EKiWFaay9VCC_826m5-9V8C3F6y8-bxu3fzoaqwFUyp1Zi28b9J1efSiVWxeUlxiex2bwTADzpo9XDyVqCgS2W&__req=u&fb_dtsg=AQFmLGz9lpBT&ttstamp=26581701097671122571081126684&__rev=2105809"
   ];
 	var expected = null;
 		
