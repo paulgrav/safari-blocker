@@ -74,3 +74,20 @@
     type: block
   trigger:
     url-filter: richrelevance\.com
+- action:
+    type: block
+  trigger:
+    url-filter: wibbitz\.com
+- action:
+    type: block
+  trigger:
+    url-filter: ownpage\.fr
+- action:
+    type: block
+  trigger:
+    url-filter: crazyegg\.com
+- action:
+    type: block
+  trigger:
+    url-filter: cpx\.to
+
