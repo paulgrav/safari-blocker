@@ -9,6 +9,7 @@
     - facebook.com
     - www.facebook.com
     - strava.com
+    - www.strava.com
     url-filter: fbcdn\.net
 - action:
     type: block
