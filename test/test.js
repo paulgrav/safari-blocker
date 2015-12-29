@@ -36,7 +36,8 @@ describe('unblocked', function() {
   var urls = [
 	  "http://www.bbc.co.uk",
 		"http://static1.dmcdn.net/images/header/logo.svg.vfe44cd7bde0eb7289",
-		"https://upload.facebook.com/ajax/composerx/attachment/media/saveunpublished?target_id=100000218740350&image_height=100&image_width=100&letterbox=0&av=100000218740350&qn=83cbbe5e9945ba7ea4f889dfb77ce687&__pc=EXP1%3ADEFAULT&__user=100000218740350&__a=1&__dyn=7AmanEzUFlym5Q9UoHaEWCueyrhEK5EKiWFaay9VCC_826m5-9V8C3F6y8-bxu3fzoaqwFUyp1Zi28b9J1efSiVWxeUlxiex2bwTADzpo9XDyVqCgS2W&__req=u&fb_dtsg=AQFmLGz9lpBT&ttstamp=26581701097671122571081126684&__rev=2105809"
+		"https://upload.facebook.com/ajax/composerx/attachment/media/saveunpublished?target_id=100000218740350&image_height=100&image_width=100&letterbox=0&av=100000218740350&qn=83cbbe5e9945ba7ea4f889dfb77ce687&__pc=EXP1%3ADEFAULT&__user=100000218740350&__a=1&__dyn=7AmanEzUFlym5Q9UoHaEWCueyrhEK5EKiWFaay9VCC_826m5-9V8C3F6y8-bxu3fzoaqwFUyp1Zi28b9J1efSiVWxeUlxiex2bwTADzpo9XDyVqCgS2W&__req=u&fb_dtsg=AQFmLGz9lpBT&ttstamp=26581701097671122571081126684&__rev=2105809",
+		"https://pixel.facebook.com/ajax/photos/logging/waterfallx.php?__a=1&__dyn=7AmanEzUFlym5Q9UrEwlg94qbxqbyaFaay9VQC_826m6oDAyoeAq8zUK5Uc-dwFG2Dy9A7R88wICQ4U_pbDG4Xxm2e48K3OudBwDKubBGp3o&__req=m&__rev=2105809&__user=100000218740350&asyncSignal=9348&data=%7B%22step%22%3A%22client_select_success%22%2C%22qn%22%3A%225%22%2C%22uploader%22%3A%22web_composer%22%2C%22ref%22%3A%22feed%22%2C%22volume%22%3A1%2C%22method%22%3A%22dragdrop%22%7D&fb_dtsg=AQEx4y1QSela&ttstamp=26581691205212149818310110897"
   ];
 	var expected = null;
 		

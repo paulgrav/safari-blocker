@@ -8,6 +8,7 @@
     unless-domain:
     - facebook.com
     - www.facebook.com
+    - strava.com
     url-filter: fbcdn\.net
 - action:
     type: block
