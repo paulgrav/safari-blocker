@@ -36,9 +36,7 @@
 - action:
     type: block
   trigger:
-    load-type:
-    - third-party
     unless-domain:
       - twitter.com
-      - www.twitter.com
-    url-filter: twitter\.com
+      - strava.com
+    url-filter: platform\.twitter\.com
