@@ -38,4 +38,7 @@
   trigger:
     load-type:
     - third-party
+    unless-domain:
+      - twitter.com
+      - www.twitter.com
     url-filter: twitter\.com
