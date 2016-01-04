@@ -118,3 +118,7 @@
     type: block
   trigger:
     url-filter: simplereach\.com
+- action:
+    type: block
+  trigger:
+    url-filter: gigya\.com
