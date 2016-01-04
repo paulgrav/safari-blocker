@@ -122,3 +122,7 @@
     type: block
   trigger:
     url-filter: gigya\.com
+- action:
+    type: block
+  trigger:
+    url-filter: sail\-horizon\.com
