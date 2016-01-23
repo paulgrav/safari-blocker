@@ -90,4 +90,79 @@
     type: block
   trigger:
     url-filter: cpx\.to
-
+- action:
+    type: block
+  trigger:
+    url-filter: shrMain\.min\.js
+- action:
+    type: block
+  trigger:
+    url-filter: dtscout\.com
+- action:
+    type: block
+  trigger:
+    url-filter: amung\.us
+- action:
+    type: block
+  trigger:
+    url-filter: shareaholic\.com
+- action:
+    type: block
+  trigger:
+    url-filter: simpli\.fi
+- action:
+    type: block
+  trigger:
+    url-filter: sharethis\.com
+- action:
+    type: block
+  trigger:
+    url-filter: popads\.net
+- action:
+    type: block
+  trigger:
+    url-filter: wafmedia6\.com
+- action:
+    type: block
+  trigger:
+    url-filter: bnhtml\.com
+- action:
+    type: block
+  trigger:
+    url-filter: tynt\.com
+- action:
+    type: block
+  trigger:
+    url-filter: dtscdn\.com
+- action:
+    type: block
+  trigger:
+    url-filter: clickterra\.net
+- action:
+    type: block
+  trigger:
+    url-filter: viglink\.com
+- action:
+    type: block
+  trigger:
+    url-filter: owneriq\.net
+- action:
+    type: block
+  trigger:
+    url-filter: turn\.com
+- action:
+    type: block
+  trigger:
+    url-filter: exelator\.com
+- action:
+    type: block
+  trigger:
+    url-filter: market\.net
+- action:
+    type: block
+  trigger:
+    url-filter: rubiconproject\.com
+- action:
+    type: block
+  trigger:
+    url-filter: pubmatic\.com
