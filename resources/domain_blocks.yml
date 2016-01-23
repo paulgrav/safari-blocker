@@ -166,3 +166,39 @@
     type: block
   trigger:
     url-filter: pubmatic\.com
+- action:
+    type: block
+  trigger:
+    url-filter: media\.net
+- action:
+    type: block
+  trigger:
+    url-filter: truste\.com
+- action:
+    type: block
+  trigger:
+    url-filter: gigya\.net
+- action:
+    type: block
+  trigger:
+    url-filter: liftdna\.com
+- action:
+    type: block
+  trigger:
+    url-filter: mnet\-ad\.net
+- action:
+    type: block
+  trigger:
+    url-filter: revcontent\.com
+- action:
+    type: block
+  trigger:
+    url-filter: simplereach\.com
+- action:
+    type: block
+  trigger:
+    url-filter: gigya\.com
+- action:
+    type: block
+  trigger:
+    url-filter: sail\-horizon\.com
