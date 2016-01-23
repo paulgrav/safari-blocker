@@ -202,3 +202,11 @@
     type: block
   trigger:
     url-filter: sail\-horizon\.com
+- action:
+    type: block
+  trigger:
+    url-filter: puhtml\.com
+- action:
+    type: block
+  trigger:
+    url-filter: shareaholic\.js
