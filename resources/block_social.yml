@@ -2,6 +2,8 @@
     type: block
   trigger:
     url-filter: plusone\.js
+    unless-domain:
+    - squarespace.com
 - action:
     type: block
   trigger:
@@ -10,23 +12,31 @@
     - www.facebook.com
     - strava.com
     - www.strava.com
+    - squarespace.com
     url-filter: fbcdn\.net
 - action:
     type: block
   trigger:
     url-filter: plus.google\.com
+    unless-domain:
+    - squarespace.com
 - action:
     type: block
   trigger:
     load-type:
     - third-party
     url-filter: facebook\.net
+    unless-domain:
+    - squarespace.com
 - action:
     type: block
   trigger:
     load-type:
     - third-party
     url-filter: pinterest\.com
+    unless-domain:
+    - squarespace.com
+    
 # - action:
 #     type: block
 #   trigger:
@@ -39,4 +49,5 @@
     unless-domain:
       - twitter.com
       - strava.com
+      - squarespace.com      
     url-filter: platform\.twitter\.com
