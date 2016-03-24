@@ -210,3 +210,8 @@
     type: block
   trigger:
     url-filter: shareaholic\.js
+- action:
+    type: block
+  trigger:
+    url-filter: global_.*?\.min\.js
+    if-domain: ["lequipe.fr","www.lequipe.fr"]
