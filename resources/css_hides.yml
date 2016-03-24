@@ -4,7 +4,7 @@
   trigger:
     url-filter: .*
 - action:
-    selector: '*:not(body) [class*=''cookie''], *:not(body) [id*=''cookie'']'
+    selector: '[class*=''cookie'']:not(body) , [id*=''cookie'']:not(body) '
     type: css-display-none
   trigger:
     url-filter: .*
