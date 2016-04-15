@@ -20,3 +20,4 @@ I find it easier to write/maintain Yaml than JSON, so this project takes any Yam
 
 	npm test
   
+
