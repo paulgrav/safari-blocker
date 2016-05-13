@@ -51,3 +51,10 @@
     type: css-display-none
   trigger:
     url-filter: .*
+- action:
+    selector: body.theme-documentation #footer
+    type: css-display-none
+  trigger:
+    if-domain:
+      developer.bskyb.com
+    url-filter: .*
